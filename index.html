@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Carga de Productos</title>
+</head>
+<body>
+    <main class="container">
+        <form action="">
+            <div class="subcontainer">
+                <label for="product-name">Titulo de producto</label>
+                <input type="text" name="product-name" id="product-name">
+            </div>
+            <div class="subcontainer">
+                <label for="product-brand">Marca</label>
+                <select name="brand" id="product-brand">
+                    <option value="klat">Klatter</option>
+                    <option value="tmeg">Top Mega</option>
+                    <option value="fie">Fierce</option>
+                    <option value="shi">Shimano</option>
+                    <option value="lam">Lamborghini</option>
+                    <option value="aur">Aurora</option>
+                    <option value="gt">GT</option>
+                </select>
+            </div>
+            <div class="subcontainer">
+                <label for="product-size">Rodado</label>
+                <input type="number" name="size" id="product-size">
+            </div>
+            <div class="subcontainer">
+                <label for="product-category">Categoría de producto</label>
+                <input type="radio" name="category" id="product-cateogry" value="moun-bike">Mountain Bike
+                <input type="radio" name="category" id="product-category-2" value="paseo">Paseo
+                <input type="radio" name="category" id="product-cateogry-3" value="pleg">Plegable
+                <input type="radio" name="cateogry" id="product-category" value="carr">Carrera
+            </div>
+            <div class="subcontainer">
+                <label for="product-description">Descripción del producto</label>
+                <textarea name="description" id="product-description" cols="30" rows="10"></textarea>
+            </div>
+            <div class="subcontainer">
+                <input type="submit" name="submit" id="product-submit">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
